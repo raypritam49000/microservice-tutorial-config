@@ -3,7 +3,6 @@ spring:
     name:  config-default
 eureka:
   instance:
-    appname: user-service
     hostname: localhost
     prefer-ip-address: true
   client:
