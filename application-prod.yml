@@ -1,9 +1,8 @@
 eureka:
   server:
-    enableSelfPreservation: false
+    enableSelfPreservation: true
   instance:
-    appname: eureka-registory-service
     hostname: localhost
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
