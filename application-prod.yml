@@ -2,6 +2,7 @@ eureka:
   server:
     enableSelfPreservation: false
   instance:
+    appname: eureka-registory-service
     hostname: localhost
   client:
     register-with-eureka: false
